@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de HTML Para Completos Iniciantes
+    </title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="blog.html" target="_blank">Home</a></li>
+        </ul>
+    </nav>
+<!--Esse comentários nao aparecem no navegador, são apenas para desenvolvedores verem-->
+
+<!--Cabeçalho ou Headings-->     
+<h1>Cabeçalho nível 01</h1>
+<h2>Cabeçalho nível 02</h2>
+<h3>Cabeçalho nível 03</h3>
+<h4>Cabeçalho nível 04</h4>
+<h5>Cabeçalho nível 05</h5>
+<h6>Cabeçalho nivel 06</h6>
+<hr>
+
+<!--Parágrafos é display block, ele quebra linha, fica um embaixo do outro, ocupa toda a largura da linha -->
+<!--strong e em são display inline, ou seja, elas só ocupam a largura que a palavra precisa, não quebra a linha-->
+<p>Lorem ipsum dolor sit, <strong>amet</strong> consectetur adipisicing elit. Illum, architecto eius id beatae provident similique quam amet. 
+Vel obcaecati nam inventore, aut, distinctio eos quas velit nostrum quos perferendis quidem.</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium recusandae ipsum eius ea reiciendis. 
+Repudiandae incidunt <em>totam</em> autem maiores error.</p> <hr>
+
+
+<!--links, tag <a> é display inline -->
+<!--target blank abre a pagina em nova aba-->
+<!--href, class são atributos da tag que dão informações sobre um elemento e são inseridas na tag de início, na tag que abre  -->
+
+<a href="about.html">About</a>
+<a href="https://google.com" target="_blank">Google</a> <hr>
+
+<!--tabelas-->
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+       <tr> 
+            <td> Mariana Cristina </td>
+            <td>marianacristinasantos05@gmail.com</td>
+            <td>26</td>
+       </tr>
+
+       <tr> 
+            <td> José Maria </td>
+            <td>josemaria@gmail.com</td>
+            <td>36</td>
+      </tr> 
+
+      <tr> 
+            <td> Maria José </td>
+            <td>mariajose05@gmail.com</td>
+            <td>46</td>
+      </tr> 
+
+       
+    </tbody>
+</table>
+
+<br>
+<hr> <!--cria uma linha horizontal-->
+
+
+<!--formulário-->
+<!--action é para onde quero mandar o formulário-->
+<!--no method, eu uso o post para mandar informações para o servdidor, tipo login e senha -->
+
+
+<form action="form.php" method="post">
+
+<!--label e input são inline, deixa um do lado do outro-->
+<!--para deixar em block tem que colocar dentro de uma div que é um elemento block-->
+
+    <div>
+        <label>Primeiro nome:</label> 
+        <input type="text" placeholder="escreva seu primeiro nome">
+    </div>
+
+    <div>
+        <label>Segundo nome:</label>
+        <input type="text" placeholder="escreva seu segundo nome">
+    </div>
+
+    <div>
+        <label>Email:</label>
+        <input type="email" placeholder="digite o e-mail">
+    </div>
+
+    <div>
+        <label>Gênero:</label>
+        <select>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Data de nascimento:</label>
+        <input type="date">
+    </div>
+
+    <div>
+        <label>Senha:</label>
+        <input type="password" placeholder="senha aparecerá assim: ****">
+    </div>
+
+    <div>
+        <label>Mensagem:</label>
+        <textarea name="" id="" cols="30" rows="10" placeholder="cols: largura e rows: altura, linhas"></textarea>
+    </div>
+
+    <input type="submit">
+
+    <hr>
+
+</form>
+
+<!--botões só com js consigo adicionar funcionalidade-->
+
+<button>Click Me</button> 
+<hr>
+
+<!--imagens é display inline-->
+
+<img src="img/html-logo.png" alt=" texto alternativo que vai aparecer caso a imagem nao seja carregada" width="100" height="110">
+<hr>
+
+<!--blockquoute-->
+
+<blockquote cite="dicasparadevs.com.br">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta adipisci ipsum laudantium nostrum blanditiis quaerat, 
+   explicabo fuga sequi tempora nisi quos corrupti, veritatis harum cupiditate quisquam quasi non, dignissimos temporibus?
+</blockquote> <hr>
+
+<!--abrevição-->
+
+<p>Eu amo a <abbr title="World Wide Web">WWW</abbr></p> <hr>
+
+<!--citações-->
+
+<p>Tutorial feito por <cite>dicasparadevs</cite></p> <hr>
+
+
+
+
+
+
+</body>
+</html>
